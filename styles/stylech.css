@@ -1,0 +1,68 @@
+body {
+	background-image: url("../imagenes/fondo2.jpg");
+	background-repeat: no-repeat;
+	position: absolute;
+	overflow: hidden;
+}
+.happy {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	top: 200px;
+	left: 700px;
+	animation-name: happy;
+	animation-duration: 2s;
+	z-index: 1;
+}
+@keyframes happy {
+	0% {left: 0px; top: 100px;}
+	100% {left: 700px; top: 200px}
+}
+.year {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	top: 100px;
+	left: 400px;
+	animation-name: year;
+	animation-duration: 3s;
+	z-index: 2;
+}
+@keyframes year {
+	0% {left: 0px; top: 100px}
+	100% {left: 400px; top: 100px}
+}
+.vida {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	top: -300px;
+	left: 1000px;
+	animation-name: vida;
+	animation-duration: 4s;
+	z-index: 3;
+}
+@keyframes vida {
+	0% {left: 0px; top: 100px}
+	100% {left: 1000px; top: -300px}
+}
+.texto {
+	position: relative;
+	font-family: "Brush Script MT", cursive;
+	color: black;
+	font-size: 50px;
+	z-index: 4;
+	bottom: 1200px;
+	left: 200px;
+}
+.gif {
+	height: 1000px;
+	width: 1000px;
+    position: relative;
+	width: 1000px;
+	height: 1000px;
+	bottom: 1300px;
+	left:400px;
+	z-index: 5;
+	opacity: 0.2;
+}
